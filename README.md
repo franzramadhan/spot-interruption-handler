@@ -11,7 +11,6 @@ This Lambda will detach EC2 spot instance from AutoScaling Group to drain the co
   - [Disclaimer](#disclaimer)
   - [Dependencies](#dependencies)
   - [Quick Start](#quick-start)
-  - [Contributing](#contributing)
   - [Contributor](#contributor)
   - [License](#license)
 
@@ -39,10 +38,6 @@ This Lambda will detach EC2 spot instance from AutoScaling Group to drain the co
 cd tests
 go test -count 1 -v tests
 ```
-
-## Contributing
-
-Check contribution guide in [CONTRIBUTING.md](https://github.com/franzramadhan/spot-interruption-handler/blob/master/CONTRIBUTING.md)
 
 ## Contributor
 
