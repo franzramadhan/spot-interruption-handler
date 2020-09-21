@@ -1,0 +1,18 @@
+  
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# go module
+go.sum
+
+# go binaries
+*.zip
+main
+**/build/*
