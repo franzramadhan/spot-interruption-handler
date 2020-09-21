@@ -12,10 +12,10 @@ resource "aws_iam_role" "this" {
   max_session_duration  = 3600
 
   tags = {
-    Name          = var.service_name
-    Environment   = var.environment
-    Description   = "IAM Role of ${var.service_name}"
-    ManagedBy     = "terraform"
+    Name        = var.service_name
+    Environment = var.environment
+    Description = "IAM Role of ${var.service_name}"
+    ManagedBy   = "terraform"
   }
 
 }
@@ -31,10 +31,10 @@ resource "aws_cloudwatch_log_group" "this" {
   retention_in_days = var.log_retention_in_days
 
   tags = {
-    Service       = var.service_name
-    Description   = "Cloudwatch Log for ${var.service_name}"
-    Environment   = var.environment
-    ManagedBy     = "terraform"
+    Service     = var.service_name
+    Description = "Cloudwatch Log for ${var.service_name}"
+    Environment = var.environment
+    ManagedBy   = "terraform"
   }
 }
 
